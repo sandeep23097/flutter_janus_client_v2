@@ -12,7 +12,9 @@ dependencies:
     sdk: flutter
   flutter:
     sdk: flutter
-  flutter_webrtc: ^0.9.36
+  flutter_webrtc:
+    git:
+       url: https://github.com/sandeep23097/flutter_webrtc
   path_provider: ^2.0.11
   http: ^0.13.5
   web_socket_channel: ^2.2.0
